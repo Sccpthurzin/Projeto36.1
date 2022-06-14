@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Corrida de Carros</title>
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+    <script src="./lib/jogo.js"></script>
+    <script src="./lib/formulario.js"></script>
+    <script src="./lib/jogador.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    
+    
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+    <!-- ADICIONAR CÓDIGO Firebase SDK ABAIXO -->
+   <script>
+     const firebaseConfig = {
+  apiKey: "AIzaSyDUCofTYbx7AFd4LZ-nrD2rtfPWq-aT8Po",
+  authDomain: "velorios-e-furiosos.firebaseapp.com",
+  databaseURL: "https://velorios-e-furiosos-default-rtdb.firebaseio.com",
+  projectId: "velorios-e-furiosos",
+  storageBucket: "velorios-e-furiosos.appspot.com",
+  messagingSenderId: "906803168275",
+  appId: "1:906803168275:web:c7ef962f3e05d0c0c0ebe6"
+};
+
+  firebase.initializeApp(firebaseConfig);
+  </script>
+
+   
+  </head>
+  <body>
+    
+    <script src="./sketch.js"></script>
+  </body>
+</html>
